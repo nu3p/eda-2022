@@ -31,6 +31,7 @@ oc apply -f kube/05-kafka-cluster-keda.yaml
 oc apply -f kube/01-kafka-topic.yaml
 oc apply -f kube/02-keda-deployment.yaml
 oc apply -f kube/03-keda-scalers.yaml
+oc apply -f kube/99-load-job.yaml
 ```
 
 ## case 3: knative with kafka
