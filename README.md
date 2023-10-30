@@ -3,7 +3,7 @@
 
 ## case 1: scale with hpa
 
-install operator redhat amq streams
+install operator redhat amq streams [Red Hat Integration - AMQ Streams 2.2.x only]
 
 create kafka cluster "my-cluster"
 
