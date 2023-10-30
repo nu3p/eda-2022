@@ -3,14 +3,13 @@
 
 ## case 1: scale with hpa
 
-oc new-project kafka-hpa
-
 install operator redhat amq streams
 
 create kafka cluster "my-cluster"
 
 ```bash
 cd quarkus-eda-demo
+oc new-project kafka-hpa
 oc apply -f kube/04-kafka-cluster.yaml
 oc apply -f kube/01-kafka-topic.yaml
 quarkus build --no-tests
